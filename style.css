@@ -12,6 +12,10 @@ body {
   'opsz' 24
 }
 
+.collapsed {
+    display: none;
+}
+
 nav{
     background-color: black;
     color: white;

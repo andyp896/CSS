@@ -16,12 +16,12 @@
             <div class="header">
                 <div class="logo">Logo</div>
                 <div class="more">
-                    <button>
+                    <button id="bMore">
                         <span class="material-symbols-outlined">menu</span>
                     </button>
                 </div>
             </div>
-            <div class="links">
+            <div id="linksMobile" class="links">
                 <a href="#">Services</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>
@@ -30,6 +30,8 @@
                 <a href="#">Login</a>
             </div>
         </div>
+
+        
         <div class="desktop">
             <div class="logo">Logo</div>
 
@@ -55,6 +57,17 @@
             </div>
         </div>
     </nav>
+
+    <script>
+        const bMore = document.querySelector("#bMore");
+        const linksMobile = document.querySelector ("#linksMobile");
+
+
+        bMore.addEventListener("click", (e) => {
+            linksMobile.classList.toggle("collapsed");
+        })
+    </script>
+
 </body>
 
 </html>
