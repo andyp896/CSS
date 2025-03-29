@@ -94,7 +94,7 @@ nav .desktop .secondary.mini{
         right: 0;
     }
 
-    nav .secondary.mini:hover ~ .submenu{
+    nav .secondary.mini:hover .submenu{
         display: block;
     }
 
