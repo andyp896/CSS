@@ -1,0 +1,72 @@
+body {   /*Se quitan los estilos que vienen por defecto (solo los que se cambian)*/
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards{  
+    display: flex; /*Se le coloca en celda para su organizacion*/
+    width: 100%; /*Se define el ancho*/
+    padding: 50px; /*Se establece un espacio entre el contenido y su borde*/
+}
+
+.cards .card {
+    background: rgb(0,144,255); /*Color de fondo*/
+    color: white; /*color del texto*/
+    width: 300px; /*ancho*/
+    height: 350px; /*alto*/
+    border-radius: 10px; /* Se redondean los bordes*/
+    padding: 30px; /*espacio entre el contenido y su borde*/
+    box-sizing: border-box; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.4), -4px 0 10px rgba(0, 0, 0, 0.2), -5px 0 10px rgba(0, 0, 0, 0.1) ;
+    transition: all 0.3s ease;
+}
+
+.cards .card a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cards .card a:hover{
+    color: lightyellow;
+}
+
+.cards .card .header{
+    flex: 1;
+}
+
+.cards .card:hover {
+    margin-right: 80px;
+    transform: rotate(3deg) translateY(-15px);
+}
+
+.cards .card .header .date {
+    padding: 10px 0;
+}
+
+.cards .card .header .title {
+    font-size: 20px;
+}
+
+.cards .card .footer .autor a{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.cards .card .footer img {
+    width: 100px;
+    border-radius: 40%;
+}
+
+.cards .card[class*="element"] {
+    margin-left: -100px;
+}
+
+.element-1:hover {
+    margin-left: -130px;
+}
