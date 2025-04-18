@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: darkviolet;
+}
+
+.form-container{
+    background-color: aquamarine;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+}
+
+.form-container .Login-container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-container .Login-container > h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.form-container .Login-container > p,
+-form-container .Login-container > span{
+    text-align: center;
+    color: darkslategray;
+}
