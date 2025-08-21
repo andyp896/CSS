@@ -1,0 +1,22 @@
+Hola este es un indice de lo que tendra este repositorio con respecto a CSS, estare haciendo practicas y seran subidas en este repositorio.
+
+Este ejercicio es para crear un menu horizontal y responsive
+
+Empezamos creando un nav donde ira la parte del codigo
+
+Tendremos 2 clases principales "mibile" y "desktop"
+
+Despues creamos un div clase "header" para poner nuestro logo y botones de menu desplegables
+Se crea una div y clase "more" donde se creara el boton con id = "bMore" y le agregaremos un icono de google fonts
+Segundo div clase "links" para crear un espacio para poner los links del menu
+
+Eso es todo por parte de html para la parte de mobile
+
+Ahora para la parte de desktop
+
+Primer div clase "desktop", crearemos 4 div, para varios mini menus llamados
+div class "logo" en donde ira el logo
+div class "primary" primer mini menu
+div class "secondary full" segundo mini menu
+div class "secondary mini" tercer mini menu
+
